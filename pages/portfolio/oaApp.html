@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+<head>
+	<title>Niq Baldwin Design - Portfolio: Online Access Branding</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="title" property="og:title" content="niqB.design">
+	<meta name="Keywords" content="Web Design, website, designer, HTML, CSS, custom website, Web Designer">
+	<meta name="Description" content="Portfolio website of Niq Baldwin and his website and application design.">
+
+	<meta property="og:image" content="../../assets/images/open graph.png">
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta property="og:description" content="Niq Baldwin is an experienced Web Designer and Developer with over a half decade of B2B and SaSS experience, and a drive to learn and grow. Check out his porfolio and more.">
+
+	<link rel="icon" href="../../assets/images/favicon.png">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="../../styles/global.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/subpage.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/portfolio.css">
+	<style type="text/css">
+		body{
+			background-image: linear-gradient(#2627288f, #2627288f), url(../../assets/images/portfolio/oaApp/hexBack.svg);
+			background-repeat: no-repeat;
+			background-position: top right;
+		}
+		.personaCard {
+		    border: 1px solid #9996;
+		    border-radius: 8px;
+		    padding: 18px;
+		    height: 100%;
+		}
+		.personaCard h3{
+			margin-top: 0;
+		}
+		.painTable{
+		    border-collapse: collapse;
+		    width: 100%;
+    		min-width: 400px;
+		}
+		.painTable *:is(th,td){
+		    padding: 10px 16px;
+		    width: 50%;
+		}
+		.painTable td{
+			border-top: 1px solid #888;
+		}
+		.painTableContainer{
+		    margin: auto;
+		    max-width: 1200px;
+		    overflow-x: auto;
+		}
+		.painTable h3{
+			margin-top: 0;
+		}
+		.textStuff table{
+		    border-collapse: collapse;
+		    width: 100%;
+		}
+		.textStuff table h5{
+		    margin: 2rem 0 .25rem;
+		    text-align: left;
+		}
+		.textStuff table td{
+		    border-top: 1px solid #888;
+		}
+		@media (min-width: 768px) {
+		    .column.c-3 {
+			    flex: 0 0 33%;
+			    margin: 0 auto;
+			}
+		}
+		.inputSample{
+		    max-width: 300px;
+		    font-family: Lato, sans-serif;
+		    margin: auto;
+		}
+		.inputSample > div{
+		    position: relative;
+		    padding: 20px 15px 15px;
+		    border-bottom: 1px solid var(--textColor);
+		}
+		.inputSample label{
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    font-size: 70%;
+		    opacity: .5;
+		}
+		.inputSample span{
+		    opacity: .5;
+		}
+		.prevIcons img{
+		    width: 32px;
+		    height: 32px;
+			object-fit: contain;
+			object-position: center;
+		    margin: 8px;
+		}
+		.comparisonContainer {
+		    max-width: 1200px;
+		    margin: auto;
+		}
+		.comparisonContainer .row{
+		    align-items: center;
+		}
+		.comparisonContainer .row > div:first-child{
+		    display: flex;
+		    justify-content: center;
+		    text-align: center;
+		}
+		@media (min-width: 768px) {
+			.comparisonContainer .row > div:first-child{
+			    flex: 0 0 63%;
+			    max-width: 63%;
+			}
+			.comparisonContainer .row:nth-child(even) > div:first-child{
+				order: 1;
+			}
+		}
+		.comparisonContainer .row > div:first-child > div{
+			padding: 0 8px;
+		}
+		.comparisonContainer .row > div:last-child{
+		    width: 100%;
+		    flex-basis: 0;
+		    flex-grow: 1;
+		    max-width: 100%;
+		    padding: 0 15px;
+		}
+		.finalRow{
+		    display: flex;
+		    flex-wrap: wrap;
+		    justify-content: space-evenly;
+		    align-items: center;
+		}
+		.finalRow > img{
+			margin: 8px 4px;
+		}
+		.imgGal > img{
+			aspect-ratio: auto 250/333;
+		}
+		.colorSwatch{
+			width: 124px;
+			aspect-ratio: auto 62/47;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<a href="../../index.html" class="logo">Niq B. Design</a>
+		<div class="menu">
+			<a href="../about.html">About</a> &nbsp;|&nbsp; 
+			<a href="../portfolio.html">Portfolio</a> &nbsp;|&nbsp; 
+			<a href="../contact.html">Contact</a>
+		</div>
+		<div id="menuToggle"><span></span><span></span><span></span><span></span></div>
+	</header>
+
+	<main>
+		<div class="container">
+			<h1>Case Study - Proprietary CMS Mobile Design</h1>
+			<div class="returnBtn">
+				<a href="../portfolio.html">&larr; Back</a>
+			</div>
+			<img class="headerImg" src="../../assets/images/portfolio/oaApp/top phones.webp">
+			<div class="row">
+				<div class="column">
+					<h2>What’s the company?</h2>
+					<hr>
+					<p>Online Access is a company that provides web solutions for HVAC contractors, with various products and a base of website hosting.</p>
+				</div>
+				<div class="column">
+					<h2>Who is the customer?</h2>
+					<hr>
+					<p>HVAC contractors and their office staff are the customers. They need to have access to the website and web solutions that Online Access takes care of.</p>
+				</div>
+			</div>
+			<div class="textContainer">
+				<h2>Background</h2>
+				<hr>
+				<p>For this project, our engineering team had created an app to manage a limited selection of our web application tools. I was given a few screenshots of the current user interface and was to create a new design for the UI using current branding. The app was already in development when I was brought on, so I leveraged my experience from creating the branding and design systems for Online Access to create a mockup of a new UI for the app and its existing tools.</p>
+				<h2>Before the design</h2>
+				<hr>
+				<p>This app is still currently in development, and for this new design, I was given screenshots of the current design of the application. The screenshots were taken on an iPad but the design needed to be focused on mobile constraints, translatable between apple and android.</p>
+			</div>
+			<div class="imgGal" style="max-width: 1200px;margin: 1rem auto;">
+				<img width="250" src="../../assets/images/portfolio/oaApp/oldAppDesign/oldAppUI1.webp">
+				<img width="250" src="../../assets/images/portfolio/oaApp/oldAppDesign/oldAppUI2.webp">
+				<img width="250" src="../../assets/images/portfolio/oaApp/oldAppDesign/oldAppUI3.webp">
+				<img width="250" src="../../assets/images/portfolio/oaApp/oldAppDesign/oldAppUI4.webp">
+				<img width="250" src="../../assets/images/portfolio/oaApp/oldAppDesign/oldAppUI5.webp">
+				<img width="250" src="../../assets/images/portfolio/oaApp/oldAppDesign/oldAppUI6.webp">
+				<img width="250" src="../../assets/images/portfolio/oaApp/oldAppDesign/oldAppUI7.webp">
+				<img width="250" src="../../assets/images/portfolio/oaApp/oldAppDesign/oldAppUI8.webp">
+				<img width="250" src="../../assets/images/portfolio/oaApp/oldAppDesign/oldAppUI9.webp">
+				<img width="250" src="../../assets/images/portfolio/oaApp/oldAppDesign/oldAppUI10.webp">
+				<img width="250" src="../../assets/images/portfolio/oaApp/oldAppDesign/oldAppUI11.webp">
+				<img width="250" src="../../assets/images/portfolio/oaApp/oldAppDesign/oldAppUI12.webp">
+			</div>
+
+			<div class="textContainer">
+				<h2>User Personas</h2>
+				<hr>
+				<p>Since this was an app developed based on an existing tool of Online Access’s, I took a look at the information of who our customers were, and who would be using this tool the most. Most customers can be sorted into two primary groups: Company Owners and Company Office Staff.</p>
+				<p>Online Access employees use the web dashboard much more than our customers due to the nature of our agency-style model, but this app was to be more focused for our customer’s use, in cases where they needed to interface with our platform or our team.</p>
+				<div class="row">
+					<div class="column" style="padding: 10px 15px 32px;">
+						<div class="personaCard">
+							<h3>Company Owners</h3>
+							<p>The individuals who run an HVAC business. They tend to be preoccupied with the business, whether they operate in the field or manage their employees from their office.</p>
+							<h4>Needs:</h4>
+							<ul>
+								<li>To upload images from their phones to the website</li>
+								<li>Manage messages while on the go</li>
+							</ul>
+						</div>
+					</div>
+					<div class="column" style="padding: 10px 15px 32px;">
+						<div class="personaCard">
+							<h3>Company Office Staff</h3>
+							<p>The individual(s) who manage technicians, field calls, and manage communications for the business. They are more commonly the ones who handle details and communication with Online Access on behalf of the owner.</p>
+							<h4>Needs:</h4>
+							<ul>
+								<li>Images from the field for the website</li>
+								<li>To manage contact forms and form submissions</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<p>The Online Access customers don’t usually have to deal with direct changes to the website, but they do receive emails from form submissions on their website and need to email in files to Online Access to be added to the website. These people tend to be in their mid-40s or later, and do not use web applications on a regular basis, especially when compared to Online Access’s customer support who usually uses the web dashboard on their behalf. With this in mind, the design would need:</p>
+				<ul>
+					<li>Larger buttons</li>
+					<li>Clear interactions</li>
+					<li>Accessible button locations</li>
+					<li>Multiple interaction options</li>
+				</ul>
+
+				<h2>Problems &amp; Solutions</h2>
+				<hr>
+				<p>The existing UI didn’t reflect the new branding of Online Access, nor were the tools or route of accessibility apparent. Other pain points and issues were thought about as follows.</p>
+			</div>
+			
+			<div class="painTableContainer">
+			    <table class="painTable">
+			        <tr>
+			            <th>
+			                <h4 style="color: #cb597f;">Pain Points and Problems</h4>
+			            </th>
+			            <th>
+			                <h4 style="color: #40dea3;">Possible Solutions</h4>
+			            </th>
+			        </tr>
+			        <tr>
+			            <td>Login screen lacked branding, overall visually unappealing</td>
+			            <td>Logo, color, and design elements from the current dashboard login screen could be integrated.</td>
+			        </tr>
+			        <tr>
+			            <td>Menu is the primary navigation route, is not easily accessible from single-handed orientation.</td>
+			            <td>Menu would be more obvious, and in the most accessible location for mobile.</td>
+			        </tr>
+			        <tr>
+			            <td>Text buttons for interactions, not as obvious for at a glance interactions.</td>
+			            <td>Visual icons could be used with text in tile format for more obvious interactions.</td>
+			        </tr>
+			        <tr>
+			            <td>The app lacks clarity of who is logged in.</td>
+			            <td>Personalization of the app and user name should be displayed.</td>
+			        </tr>
+			        <tr>
+			            <td>No light or dark mode, unlike the existing web app.</td>
+			            <td>Design should be equally legible in light or dark mode.</td>
+			        </tr>
+			        <tr>
+			            <td>The additional step of opening the menu to navigate to other tools, especially while in a tool is tedious.</td>
+			            <td>Menu interactions available in the menu or an existing menu bar for quicker navigation</td>
+			        </tr>
+			        <tr>
+			            <td>Tools with multiple elements lack division between the groups of interactions, or where the next step will take them.</td>
+			            <td>Sections in each tool will be grouped in a consistent format, broken up with headers.</td>
+			        </tr>
+			    </table>
+			</div>
+
+			<div class="textContainer">
+			    <h2>Design Approach</h2>
+			    <hr>
+			    <p>A lot of the content is available in a dynamic list format, I’ve seen some good solutions in the past, so I researched designs of existing apps that had a wide range of users, such as Twitter, TikTok, Tumblr, D&amp;D Beyond, and more. I saw a common form of menu interactions and settings structure in my research that informed my design choices.</p>
+			    <div class="row">
+			    	<div class="column textStuff">
+			    		<h4>Typography</h4>
+						<h3>Lato</h3>
+						<div style="color: rgb(136, 136, 136); font-size: 18pt; font-family: Lato, sans-serif; font-weight: 300;">Ag</div><br>
+						<div style="font-size: 16pt; font-family: Lato, sans-serif; font-weight: 300; word-break: break-all;">ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>abcdefghijklmnopqrstuvwxyz<br>0123456789!@#$%^&amp;*()</div>
+						<div>
+						    <table>
+						        <tr>
+						            <th colspan="3">
+						                <h5>Top Heading</h5>
+						            </th>
+						        </tr>
+						        <tr style="font-size: 16pt; font-weight: 400;">
+						            <td>Heading</td>
+						            <td>16pt</td>
+						            <td>SemiBold</td>
+						        </tr>
+						        <tr>
+						            <th colspan="3">
+						                <h5>Section Heading</h5>
+						            </th>
+						        </tr>
+						        <tr style="font-size: 18pt; font-weight: 700;">
+						            <td>Heading</td>
+						            <td>18pt</td>
+						            <td>Bold</td>
+						        </tr>
+						        <tr>
+						            <th colspan="3">
+						                <h5>Body Text</h5>
+						            </th>
+						        </tr>
+						        <tr style="font-size: 12pt;">
+						            <td>Body Text</td>
+						            <td>12pt</td>
+						            <td>Medium</td>
+						        </tr>
+						        <tr>
+						            <th colspan="3">
+						                <h5>Sub Text</h5>
+						            </th>
+						        </tr>
+						        <tr style="font-size: 8pt;">
+						            <td>Sub Text</td>
+						            <td>8pt</td>
+						            <td>Medium</td>
+						        </tr>
+						        <tr>
+						            <th colspan="3">
+						                <h5>Button Text</h5>
+						            </th>
+						        </tr>
+						        <tr style="font-size: 12pt;">
+						            <td>Button Text</td>
+						            <td>12pt</td>
+						            <td>Medium</td>
+						        </tr>
+						    </table>
+						</div>
+			    	</div>
+			    	<div class="column">
+			    		<h4>Colors</h4>
+			    		<h5>Primary Colors</h5>
+			    		<p>Using the existing Online Access styles, I added some notification, success, and danger colors.</p>
+			    		<div>
+			    			<img class="colorSwatch" src="../../assets/images/portfolio/oaApp/colors/Mask Groupcolor.webp">
+			    			<img class="colorSwatch" src="../../assets/images/portfolio/oaApp/colors/Mask Groupcolor-1.webp">
+			    			<img class="colorSwatch" src="../../assets/images/portfolio/oaApp/colors/Mask Groupcolor-2.webp">
+			    			<img class="colorSwatch" src="../../assets/images/portfolio/oaApp/colors/Mask Groupcolor-3.webp">
+			    			<img class="colorSwatch" src="../../assets/images/portfolio/oaApp/colors/Mask Groupcolor-4.webp">
+			    		</div>
+			    		<h5>Secondary Colors</h5>
+			    		<p>Shadowed elements only needed slight changes.</p>
+			    		<div>
+			    			<img class="colorSwatch" src="../../assets/images/portfolio/oaApp/colors/Mask Groupcolor-5.webp">
+			    			<img class="colorSwatch" src="../../assets/images/portfolio/oaApp/colors/Mask Groupcolor-7.webp">
+			    		</div>
+			    		<h5>Mode Colors</h5>
+			    		<p>The common white and black needed to be consistent as well.</p>
+			    		<div>
+			    			<img class="colorSwatch" src="../../assets/images/portfolio/oaApp/colors/Mask Groupcolor-6.webp">
+			    			<img class="colorSwatch" src="../../assets/images/portfolio/oaApp/colors/Mask Groupcolor-8.webp">
+			    		</div>
+			    	</div>
+			    </div>
+			</div>
+		    <h4>Components</h4>
+		    <div class="row">
+		    	<div class="column c-3">
+		    		<h5>Android Components</h5>
+		    		<p>There had to be additional padding, but the color should bleed under the android menu.</p>
+		    		<img width="244" style="aspect-ratio: auto 61/20;" src="../../assets/images/portfolio/oaApp/components/droid menu.png">
+		    		<br>
+		    		<h5>iOS Components</h5>
+		    		<p>The menu on apple can line up with the bottom of the screen.</p>
+		    		<img width="244" style="aspect-ratio: auto 244/57;" src="../../assets/images/portfolio/oaApp/components/iosmenu.png">
+		    	</div>
+		    	<div class="column c-3">
+		    		<h5>Buttons</h5>
+		    		<p>Buttons should be round, and maintain primary, danger, success, or secondary color.</p>
+		    		<img width="331" style="aspect-ratio: auto 331/107;" src="../../assets/images/portfolio/oaApp/components/buttons.png">
+		    		<br>
+		    		<h5>Input Components</h5>
+		    		<p>The text inputs are to have their label as a placeholder, until focused on or have text input, where it will become the label.</p>
+
+		    		<div class="inputSample">
+		    			<div><label>Enter Your Name</label>My Name</div>
+		    			<div><span>Enter Your Email Address</span></div>
+		    		</div>
+		    	</div>
+		    	<div class="column c-3">
+		    		<h5>Menu Components</h5>
+		    		<p>Should be able to be opened by clicking the menu button, or dragging up from the bottom.</p>
+		    		<div style="display: flex; justify-content: space-evenly;">
+		    			<img style="aspect-ratio: auto 113/135;width: min(226px,48%);" src="../../assets/images/portfolio/oaApp/components/menu.png">
+		    			<img style="aspect-ratio: auto 113/135;width: min(226px,48%);" src="../../assets/images/portfolio/oaApp/components/menus.png">
+		    		</div>
+		    	</div>
+		    </div>
+		    <div class="textContainer">
+			    <h4>Icons</h4>
+			    <div class="prevIcons">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-1.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-2.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-3.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-4.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-5.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-6.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-7.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-8.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-9.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-10.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-11.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-12.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-13.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-14.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-15.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-16.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-17.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-18.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-19.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-20.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-21.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-22.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-23.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-24.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-25.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-26.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-27.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-28.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-29.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-30.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-31.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-32.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-33.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Vector-34.svg">
+			    	<img src="../../assets/images/portfolio/oaApp/icons/Group 81.svg">
+			    </div>
+
+			    <h2>Comparison</h2>
+			    <hr>
+			    <p>Here are some discussions about some of the primary screens on the app. The objective was to make the app easier to navigate and maintain branding standards.</p>
+		    </div>
+
+			<div class="comparisonContainer">
+				<div class="row">
+				    <div class="column">
+				        <div>
+				            <h5>Before</h5>
+						    <img src="../../assets/images/portfolio/oaApp/comparison/before1.jpg">
+				        </div>
+				        <div>
+				            <h5>After</h5>
+						    <img src="../../assets/images/portfolio/oaApp/comparison/after1.jpg">
+				        </div>
+				    </div>
+				    <div class="column">
+				        <h4>Login Screen</h4>
+				        <p>The UI before was very basic and didn’t reflect the Online Access style.</p>
+				        <p>In the new design, it matches the new branding and style for Online Access, incorporating the teal gradient and the hexagons. Important interactions like sign up for service, and forgot password are included. Also the option for biometrics is available, since it is a preferred sign in method for many users.</p>
+				    </div>
+				</div>
+				<div class="row">
+				    <div class="column">
+				        <div>
+				            <h5>Before</h5>
+						    <img src="../../assets/images/portfolio/oaApp/comparison/before2.jpg">
+				        </div>
+				        <div>
+				            <h5>After</h5>
+						    <img src="../../assets/images/portfolio/oaApp/comparison/after2.jpg">
+				        </div>
+				    </div>
+				    <div class="column">
+				        <h4>Home Screen</h4>
+				        <p>The UI before had lacked the branding from before, and also only had singular buttons for various tools. It was not easily operated at a glance.</p>
+				        <p>The buttons were broken out into tiles. It was also designed to be accommodating for additional tools in the future. It used icons for visual hierarchy so that navigation could be used without having to read the text. But there is also text available if the icons are not implicit, and that provides context if or when needed.</p>
+				    </div>
+				</div>
+				<div class="row">
+				    <div class="column">
+				        <div>
+				            <h5>Before</h5>
+						    <img src="../../assets/images/portfolio/oaApp/comparison/before3.jpg">
+				        </div>
+				        <div>
+				            <h5>After</h5>
+						    <img src="../../assets/images/portfolio/oaApp/comparison/after3.jpg">
+				        </div>
+				    </div>
+				    <div class="column">
+				        <h4>Menu</h4>
+				        <p>The open menu blended in with the background too easily, and for the primary navigation method, it was in a harder-to-reach location for single-handed use.</p>
+				        <p>The menu bar was brought to the bottom, with the main menu button in an easily accessible place, where a user could tap the button, or slide up to access an expanded menu. More popular navigation could be assigned to the additional spots in the bar for quicker navigation.</p>
+				    </div>
+				</div>
+				<div class="row">
+				    <div class="column">
+				        <div>
+				            <h5>Before</h5>
+						    <img src="../../assets/images/portfolio/oaApp/comparison/before4.jpg">
+				        </div>
+				        <div>
+				            <h5>After</h5>
+						    <img src="../../assets/images/portfolio/oaApp/comparison/after4.jpg">
+				        </div>
+				    </div>
+				    <div class="column">
+				        <h4>Contact Screen</h4>
+				        <p>The contact form before was simple enough, but other available contact methods were not given.</p>
+				        <p>The form was formated to match other input method styling, and two different contact methods were given for the phone number.</p>
+				    </div>
+				</div>
+				<div class="row">
+				    <div class="column">
+				        <div>
+				            <h5>Before</h5>
+						    <img src="../../assets/images/portfolio/oaApp/comparison/before5.jpg">
+				        </div>
+				        <div>
+				            <h5>After</h5>
+						    <img src="../../assets/images/portfolio/oaApp/comparison/after5.jpg">
+				        </div>
+				    </div>
+				    <div class="column">
+				        <h4>Standard Pages</h4>
+				        <p>The navigation routes before, while clear, didn’t display new messages, or leave way for different message systems in the future.</p>
+				        <p>The new layout communicated unread content in proper directories and could give more information about the subdirectories. This also gave room for future message types to be added.</p>
+				    </div>
+				</div>
+			</div>
+
+			<div class="textContainer">
+				<h2>Designs</h2>
+				<hr>
+				<p>Once the setup for the new layout for the app design was decided, the mock-up for the rest of the tools requested was created.</p>
+			</div>
+			<div class="finalRow">
+				<img src="../../assets/images/portfolio/oaApp/final/1.jpg">
+				<img src="../../assets/images/portfolio/oaApp/final/2.jpg">
+				<img src="../../assets/images/portfolio/oaApp/final/3.jpg">
+				<img src="../../assets/images/portfolio/oaApp/final/4.jpg">
+				<img src="../../assets/images/portfolio/oaApp/final/5.jpg">
+				<img src="../../assets/images/portfolio/oaApp/final/6.jpg">
+				<img src="../../assets/images/portfolio/oaApp/final/7.jpg">
+				<img src="../../assets/images/portfolio/oaApp/final/8.jpg">
+				<img src="../../assets/images/portfolio/oaApp/final/9.jpg">
+				<img src="../../assets/images/portfolio/oaApp/final/10.jpg">
+				<img src="../../assets/images/portfolio/oaApp/final/11.jpg">
+				<img src="../../assets/images/portfolio/oaApp/final/12.jpg">
+				<img src="../../assets/images/portfolio/oaApp/final/13.jpg">
+				<img src="../../assets/images/portfolio/oaApp/final/14.jpg">
+				<img src="../../assets/images/portfolio/oaApp/final/15.jpg">
+				<img src="../../assets/images/portfolio/oaApp/final/16.jpg">
+				<img src="../../assets/images/portfolio/oaApp/final/17.jpg">
+				<img src="../../assets/images/portfolio/oaApp/final/18.jpg">
+				<img src="../../assets/images/portfolio/oaApp/final/19.jpg">
+				<img src="../../assets/images/portfolio/oaApp/final/20.jpg">
+			</div>
+
+			<div class="textContainer">
+				<h2>Wrap-up</h2>
+				<hr>
+				<p>While the project, unfortunately, is still in development, the changes proposed definitely made a more brand-specific impact on the user, and led to a cleaner experience. After proper user testing and feedback, we could learn more about what user interactions should have more focus on in this project.</p>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="footerContainer">
+			<div class="nav">
+				<div>
+					<a href="../index.html" class="title">Niq B. Design</a>
+					<a href="https://www.linkedin.com/in/niqbaldwin/" target="_blank" class="socIcon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+					<a href="mailto:niq.baldwin32@gmail.com" class="socIcon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg></a>
+				</div>
+				<div class="links">
+					<a href="../pages/contact.html">Contact</a>
+					<a href="../pages/portfolio.html">Portfolio</a>
+				</div>
+			</div>
+			<div class="copyright">
+				&copy; <span id="currentyear"><script type="text/javascript">document.write( new Date().getFullYear() );</script></span> Niq Baldwin
+			</div>
+		</div>
+	</footer>
+
+
+
+	<script type="text/javascript" src="../../scripts/headerScroll.js"></script>
+</body>
+</html>
