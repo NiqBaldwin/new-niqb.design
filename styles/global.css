@@ -1,12 +1,12 @@
 :root{
-	--bgColor: #262728;
-	--blue: #0cc;
-	--textColor: #fff;
+	--bgColor: #262728 !important;
+	--blue: #0cc !important;
+	--textColor: #fff !important;
 }
 :root.lightmode{
-	--bgColor: #fff;
-	--textColor: #262728;
-	--blue: #066;
+	--bgColor: #fff !important;
+	--textColor: #262728 !important;
+	--blue: #066 !important;
 }
 
 ::selection{background:#066;color:#fff}
